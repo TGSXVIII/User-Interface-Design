@@ -1,0 +1,220 @@
+/*----------- CSS for small screens ----------*/
+
+/* Responsive styles for small screens */
+@media (max-width: 600px) {
+    /* Adjust styles for small screens */
+
+    /* Centering text */
+    .header-text,
+    #about,
+    #hobbies,
+    #portfolio,
+    #contact,
+    .row,
+    .container,
+    .sub-title,
+    .tab-links {
+        text-align: center;
+    }
+
+    /* Centering block-level elements and adjusting font sizes */
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 40px;
+    }
+
+    .textFont {
+        text-align: auto;
+    }
+
+    .about-col-1,
+    .about-col-2,
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+        /* For .about-col-1 */
+        font-size: 14px;
+        /* For .about-col-2 */
+        order: 1;
+        /* Reset the order */
+        box-sizing: border-box;
+    }
+
+    /* Centering navigation */
+    nav .fas {
+        display: block;
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        background: #262626;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fas {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    /* Adjust button centering */
+    .btn {
+        display: block;
+        /* Change display to block if it's inline */
+        margin: 20px auto;
+        /* Auto margins on the sides center the element */
+        text-align: center;
+    }
+
+    /* Placing the contact form below the contact information */
+    .contact-right {
+        order: 2;
+    }
+
+    /* Adjusting font size for copyright */
+    .copyright {
+        font-size: 14px;
+    }
+
+    /* Additional centering styles */
+    .container,
+    .row,
+    nav,
+    .header-text,
+    #sidemenu,
+    .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Hide the full sidemenu */
+    #sidemenu {
+        position: fixed;
+        top: 0;
+        right: -200px;
+        /* Start off-screen to the right */
+        width: 200px;
+        height: 100%;
+        transition: right 0.5s;
+        /* Animate the 'right' property for smooth sliding */
+    }
+
+    /* Display hamburger menu icon */
+    .fas.fa-bars {
+        display: block;
+        /* Show the menu icon */
+        cursor: pointer;
+        font-size: 25px;
+        /* Adjust size as needed */
+    }
+
+    /* Centering form inputs and buttons */
+    form input,
+    form textarea,
+    form button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Show the sidemenu when the menu icon is clicked */
+    .menu-open #sidemenu {
+        display: flex;
+        /* Re-display the sidemenu */
+    }
+
+    /* Adjust sidemenu items */
+    #sidemenu li a {
+        font-size: large;
+        /* Adjust font size */
+        padding: 10px;
+        /* Add padding */
+        display: block;
+        /* Display as block to fill the width of the menu */
+    }
+
+    /* Adjustments for the 'About Me' section */
+    .about-col-1 img {
+        margin: 0 auto;
+        /* Center the image */
+        display: block;
+        /* Ensure it is block level for auto margins to work */
+        margin-top: 30px;
+        /* Maintain top margin */
+    }
+
+    .tab-titles {
+        display: block;
+        /* Stack tab titles on top of each other */
+        margin-bottom: 20px;
+        /* Provide bottom margin for spacing */
+    }
+
+    .tab-links {
+        margin: 10px auto;
+        /* Center align the tab links with margin */
+        display: block;
+        /* Make each tab link a block element */
+    }
+
+    .tab-contents ul {
+        padding: 0;
+        /* Remove padding from ul */
+    }
+
+    .tab-contents ul li {
+        text-align: center;
+        /* Center align the list items */
+        font-size: 16px;
+        /* Adjust font size for readability on mobile */
+        list-style-type: none;
+        /* Remove bullet points */
+    }
+
+    .tab-contents.active-tab {
+        display: block;
+        /* Make sure active tab content is displayed */
+    }
+
+    .hobbies-list div:hover {
+        background: #262626;
+        transform: none;
+    }
+
+    .work-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin-top: 2%;
+        padding-left: 20%;
+    }
+
+    .seeMore {
+        background-color: black;
+        margin-right: 23%;
+    }
+}

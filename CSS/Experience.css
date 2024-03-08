@@ -1,0 +1,50 @@
+/*----------- Portfolio ----------*/
+
+#portfolio .layer .learn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 5% 10%;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    height: 50px;
+}
+
+#portfolio .layer .learn-more:hover {
+    color: #fff;
+    background-color: #40E0D0;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 2%;
+}
+
+.work {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
