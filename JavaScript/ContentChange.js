@@ -1,49 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+function loadNewPage() {
+    // Create a new HTML structure
+    const newContent = `
+        <h1>New Page</h1>
+        <p>This is the new content of the page.</p>
+        <button onclick="goBack()">Go Back</button>
+    `;
+    
+    // Replace the content of the entire document
+    document.getElementById('content').innerHTML = newContent;
+}
 
-<head>
-    <title> www.mmduly </title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Test </title>
-
-    <link rel="stylesheet" href="/CSS/Style.css">
-    <link rel="stylesheet" href="/CSS/About.css">
-    <link rel="stylesheet" href="/CSS/Buttons.css">
-    <link rel="stylesheet" href="/CSS/ContactInfo.css">
-    <link rel="stylesheet" href="/CSS/Education.css">
-    <link rel="stylesheet" href="/CSS/Experience.css">
-    <link rel="stylesheet" href="/CSS/Hobbies.css">
-    <link rel="stylesheet" href="/CSS/Nav.css">
-    <link rel="stylesheet" href="/CSS/Phone.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-
-    <script src="/JavaScript/About.js"></script>
-    <script src="/JavaScript/sideMenu.js"></script>
-
-</head>
-
-<body>
-    <!--------------------------------------------------------------------------------------------------------------------------------------------------->
-    <!-- Home -->
-    <div id="header">
-        <div class="container">
-            <nav>
-                <ul id="sidemenu">
-                    <i class="fas fa-times" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Title / Educational Title</p>
-                <h1> Full name </h1>
-            </div>
-        </div>
-    </div>
-
-    <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+function LoadTemplate() {
+    // Reload the original content
+    const originalContent = `
     <!-- About -->
     <div id="about">
         <div class="container alternative-bg">
@@ -236,6 +205,6 @@
         </div>
         <a href="#" class="btn goToTop"> Go to top </a>
     </div>
-</body>
-
-</html>
+    `;
+    document.getElementById('content').innerHTML = originalContent;
+}
