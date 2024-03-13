@@ -1,16 +1,18 @@
 /* Pop-up form container */
 .form-popup {
     display: none;
-    /* Initially hidden */
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 3px solid #f1f1f1;
     z-index: 999;
-    /* Higher z-index to appear in front */
     background-color: white;
     padding: 20px;
+    max-width: 400px;
+    /* Adjust the maximum width as needed */
+    width: 100%;
+    /* Ensure the popup takes full width */
 }
 
 /* Full-width input fields */

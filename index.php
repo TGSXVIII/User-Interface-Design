@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/CSS/Hobbies.css">
     <link rel="stylesheet" href="/CSS/Nav.css">
     <link rel="stylesheet" href="/CSS/Phone.css">
+    <link rel="stylesheet" href="/CSS/Form.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
@@ -27,14 +28,39 @@
 </head>
 
 <body>
+
+    <div class="form-popup" id="login">
+        <form action="/submit_form.php" class="form-container">
+            <h2>login</h2>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit" class="btn">login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+    <div class="form-popup" id="signup">
+        <form action="/submit_form.php" class="form-container">
+            <h2>Sign Up</h2>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit" class="btn">Sign Up</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
     <!--------------------------------------------------------------------------------------------------------------------------------------------------->
     <!-- Home -->
     <div id="header">
         <!-- Navigation Bar -->
         <nav class="navbar">
-            <a href="#" class="btn-left">CV</a>
-            <a href="#" class="btn">Sign Up</a>
-            <a href="#" class="btn">Login</a>
+            <a href="#" onclick="LoadTemplate()" class="btn-left">CV</a>
+            <a href="#" onclick="openForm('signup')" class="btn">Sign Up</a>
+            <a href="#" onclick="openForm('login')" class="btn">Login</a>
 
             <!-- Search bar -->
             <div class="search-container">
