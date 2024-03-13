@@ -1,25 +1,4 @@
-/*----------- Experience ----------*/
-.experience {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 100%;
-}
-
-.experience-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-top: 2%;
-}
-
-.experience img {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
-}
-
+/*----------- Education ----------*/
 .experience-col-1 {
     width: 100%;
 }
@@ -28,5 +7,4 @@
     width: 30%;
     border-radius: 15px;
     float: right;
-    position: static;
 }
