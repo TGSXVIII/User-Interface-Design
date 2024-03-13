@@ -26,7 +26,7 @@
 
 .hobbies-list div a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     margin-top: 10px;
     display: inline-block;
@@ -58,8 +58,14 @@
 
 .hobbies-list-items div a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     margin-top: 10px;
     display: inline-block;
+}
+
+.hobbies-col-1 img {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 15px;
 }

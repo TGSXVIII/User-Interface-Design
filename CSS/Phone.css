@@ -95,11 +95,6 @@
         order: 2;
     }
 
-    /* Adjusting font size for copyright */
-    .copyright {
-        font-size: 14px;
-    }
-
     /* Additional centering styles */
     .container,
     .row,
@@ -132,14 +127,6 @@
         cursor: pointer;
         font-size: 25px;
         /* Adjust size as needed */
-    }
-
-    /* Centering form inputs and buttons */
-    form input,
-    form textarea,
-    form button {
-        width: 100%;
-        margin: 10px 0;
     }
 
     /* Show the sidemenu when the menu icon is clicked */

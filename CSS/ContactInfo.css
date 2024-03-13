@@ -1,69 +1,20 @@
 /*----------- Contact Me ----------*/
-
 #contact {
-    margin-top: 80px;
+    width: 100%;
+    background-color: #f9f9f9;;
+    border-radius: 10px;
 }
 
 .contact-left {
-    flex-basis: 35%;
+    width: 50%;
+    float: left;
+    padding: 20px;
 }
 
-.contact-right {
-    flex-basis: 40%;
+.contact-left .sub-title {
+    margin-bottom: 20px;
 }
 
-y .contact-left p {
-    margin-top: 30px;
-}
-
-.contact-left a {
-    text-decoration: none;
-}
-
-.contact-left p i {
-    color: #6ed4b2;
-    margin-right: 15px;
-    font-size: 25px;
-}
-
-.social-icons {
-    margin-top: 20px;
-}
-
-.social-icons a {
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: #ffffff;
-    display: inline-block;
-    transition: transform 0.5s;
-}
-
-.social-icons a:hover {
-    color: #40E0D0;
-    transform: translateY(-5px);
-}
-
-.contact-right form {
-    width: 100%;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #262626;
-    padding: 15px;
-    margin: 15px 0;
-    color: #ffffff;
-    font-size: 18px;
-    border-radius: 6px;
-}
-
-form btn2 {
-    padding: 14px 60px;
-    font-size: 20px;
-    cursor: pointer;
-    margin: 20px;
+.contact-left .spacing3 {
+    margin-bottom: 10px;
 }
