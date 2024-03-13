@@ -1,4 +1,5 @@
 function opentab(tabname, section) {
+    //finds the tabs that the user interacted with
     var TabLinks = document.getElementsByClassName(section + "-links");
     var TabContents = document.getElementsByClassName(section + "-content");
 
@@ -10,6 +11,7 @@ function opentab(tabname, section) {
         tabcontent.classList.remove("active-tab");
     }
 
+    //activates the tab and content that the user requested
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
