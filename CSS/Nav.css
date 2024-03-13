@@ -22,11 +22,10 @@
     float: right;
 }
 
+/* ------------------------------------------------------------- */
 /* Style for the search bar */
 .search-container {
     display: inline-block;
-    /* Displaying search container inline */
-    margin-right: 20px;
 }
 
 .search-container input[type=text] {
@@ -37,13 +36,14 @@
     color: #333;
     width: 500px;
     border: 1px solid #40E0D0;
-    margin-left: 240px;
+    margin-left: 80px;
 }
 
 .search-container button {
     display: none;
 }
 
+/* ------------------------------------------------------------- */
 form input,
 form textarea {
     width: 100%;
@@ -57,6 +57,7 @@ form textarea {
     border-radius: 6px;
 }
 
+/* ------------------------------------------------------------- */
 /* Media query for PC size */
 @media screen and (min-width: 600px) {
     #sidemenu {

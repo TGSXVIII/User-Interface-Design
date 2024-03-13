@@ -20,8 +20,13 @@
     transition: transform 0.5s;
 }
 
-.experience-col-1 img {
-    margin-top: 30px;
+.experience-col-1 {
     width: 100%;
+}
+
+.experience-col-2 img {
+    width: 30%;
     border-radius: 15px;
+    float: right;
+    position: static;
 }
