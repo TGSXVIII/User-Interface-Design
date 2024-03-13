@@ -1,7 +1,10 @@
-function openForm() {
-    document.getElementById("myForm").style.display = "block";
+function openForm(popupId) {
+    document.getElementById("login").style.display = "none";
+    document.getElementById("signup").style.display = "none";
+    document.getElementById(popupId).style.display = "block";
 }
 
 function closeForm() {
-    document.getElementById("myForm").style.display = "none";
+    document.getElementById("login").style.display = "none";
+    document.getElementById("signup").style.display = "none";
 }
