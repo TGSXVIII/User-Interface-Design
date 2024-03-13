@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-    <script src="/JavaScript/About.js"></script>
+    <script src="/JavaScript/Tabs.js"></script>
     <script src="/JavaScript/sideMenu.js"></script>
     <script src="/JavaScript/ContentChange.js"></script>
 
@@ -60,15 +60,15 @@
 
                         <!-- Maybe add more tabs -->
                         <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('AboTab1')" style="font-weight: 600;">
+                            <p class="tab-links about-links active-link" onclick="opentab('AboTab1', 'about')" style="font-weight: 600;">
                                 Info 1 </p>
-                            <p class="tab-links" onclick="opentab('AboTab2')" style="font-weight: 600;"> Info 2 </p>
-                            <p class="tab-links" onclick="opentab('AboTab3')" style="font-weight: 600;"> Info 3 </p>
-                            <p class="tab-links" onclick="opentab('AboTab4')" style="font-weight: 600;"> Info 4 </p>
-                            <p class="tab-links" onclick="opentab('AboTab5')" style="font-weight: 600;"> Info 5 </p>
+                            <p class="tab-links about-links" onclick="opentab('AboTab2', 'about')" style="font-weight: 600;"> Info 2 </p>
+                            <p class="tab-links about-links" onclick="opentab('AboTab3', 'about')" style="font-weight: 600;"> Info 3 </p>
+                            <p class="tab-links about-links" onclick="opentab('AboTab4', 'about')" style="font-weight: 600;"> Info 4 </p>
+                            <p class="tab-links about-links" onclick="opentab('AboTab5', 'about')" style="font-weight: 600;"> Info 5 </p>
                         </div>
 
-                        <div class="tab-contents active-tab" id="AboTab1">
+                        <div class="tab-contents about-content active-tab" id="AboTab1">
                             <ul>
                                 <li><span style="font-size: large; color: white; font-weight: 600;">something 1</span>
                                 <li class="textFont">Blah Blah Blah</li>
@@ -81,7 +81,7 @@
                             </ul>
                         </div>
 
-                        <div class="tab-contents" id="AboTab2">
+                        <div class="tab-contents about-content" id="AboTab2">
                             <ul>
                                 <li><span style="font-size: large; color: white; font-weight: 600;">something 1</span>
                                 <li class="textFont">Blah Blah Blah</li>
@@ -94,7 +94,7 @@
                             </ul>
                         </div>
 
-                        <div class="tab-contents" id="AboTab3">
+                        <div class="tab-contents about-content" id="AboTab3">
                             <ul>
                                 <li><span style="font-size: large; color: white; font-weight: 600;">something 1</span>
                                 <li class="textFont">Blah Blah Blah</li>
@@ -107,7 +107,7 @@
                             </ul>
                         </div>
 
-                        <div class="tab-contents" id="AboTab4">
+                        <div class="tab-contents about-content" id="AboTab4">
                             <ul>
                                 <li><span style="font-size: large; color: white; font-weight: 600;">something 1</span>
                                 <li class="textFont">Blah Blah Blah</li>
@@ -120,7 +120,7 @@
                             </ul>
                         </div>
 
-                        <div class="tab-contents" id="AboTab5">
+                        <div class="tab-contents about-content" id="AboTab5">
                             <ul>
                                 <li><span style="font-size: large; color: white; font-weight: 600;">something 1</span>
                                 <li class="textFont">Blah Blah Blah</li>
@@ -145,26 +145,26 @@
                 <h1 class="sub-title">My <span>Hobbies</span></h1>
                 <!-- Tab titles -->
                 <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('hobTab1')" style="font-weight: 600;"> Hobby 1 </p>
-                    <p class="tab-links" onclick="opentab('hobTab2')" style="font-weight: 600;"> Hobby 2 </p>
-                    <p class="tab-links" onclick="opentab('hobTab3')" style="font-weight: 600;"> Hobby 3 </p>
+                    <p class="tab-links hobbies-links active-link" onclick="opentab('hobTab1', 'hobbies')" style="font-weight: 600;"> Hobby 1 </p>
+                    <p class="tab-links hobbies-links" onclick="opentab('hobTab2', 'hobbies')" style="font-weight: 600;"> Hobby 2 </p>
+                    <p class="tab-links hobbies-links" onclick="opentab('hobTab3', 'hobbies')" style="font-weight: 600;"> Hobby 3 </p>
                 </div>
                 <!-- Tab contents -->
-                <div class="tab-contents active-tab" id="hobTab1">
+                <div class="tab-contents hobbies-content active-tab" id="hobTab1">
                     <div class="hobbies-list">
                         <img src="/Pictures/Place Holder.png">
                         <h2>Hobby 1</h2>
                         <p>Blah Blah Blah</p>
                     </div>
                 </div>
-                <div class="tab-contents" id="hobTab2">
+                <div class="tab-contents hobbies-content" id="hobTab2">
                     <div class="hobbies-list">
                         <img src="/Pictures/Place Holder.png">
                         <h2>Hobby 2</h2>
                         <p>Blah Blah Blah</p>
                     </div>
                 </div>
-                <div class="tab-contents" id="hobTab3">
+                <div class="tab-contents hobbies-content" id="hobTab3">
                     <div class="hobbies-list">
                         <img src="/Pictures/Place Holder.png">
                         <h2>Hobby 3</h2>
@@ -181,13 +181,13 @@
                 <h1 class="sub-title"> Experience </h1>
                 <!-- Tab titles -->
                 <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('expTab1')" style="font-weight: 600;"> Experience 1
+                    <p class="tab-links experience-links active-link" onclick="opentab('expTab1', 'experience')" style="font-weight: 600;"> Experience 1
                     </p>
-                    <p class="tab-links" onclick="opentab('expTab2')" style="font-weight: 600;"> Experience 2 </p>
-                    <p class="tab-links" onclick="opentab('expTab3')" style="font-weight: 600;"> Experience 3 </p>
+                    <p class="tab-links experience-links" onclick="opentab('expTab2', 'experience')" style="font-weight: 600;"> Experience 2 </p>
+                    <p class="tab-links experience-links" onclick="opentab('expTab3', 'experience')" style="font-weight: 600;"> Experience 3 </p>
                 </div>
                 <!-- Tab contents -->
-                <div class="tab-contents active-tab" id="expTab1">
+                <div class="tab-contents experience-content active-tab" id="expTab1">
                     <div class="work-list">
                         <div class="work">
                             <img src="/Pictures/Place Holder.png">
@@ -198,7 +198,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-contents" id="expTab2">
+                <div class="tab-contents experience-content" id="expTab2">
                     <div class="work-list">
                         <div class="work">
                             <img src="/Pictures/Place Holder.png">
@@ -209,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-contents" id="expTab3">
+                <div class="tab-contents experience-content" id="expTab3">
                     <div class="work-list">
                         <div class="work">
                             <img src="/Pictures/Place Holder.png">
