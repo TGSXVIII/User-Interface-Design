@@ -10,86 +10,9 @@ function loadNewPage() {
     document.getElementById('content').innerHTML = newContent;
 }
 
-<<<<<<< Updated upstream:JavaScript/ContentChange.js
 function LoadTemplate() {
     // Reload the original content
     const originalContent = `
-=======
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="/CSS/Style.css">
-    <link rel="stylesheet" href="/CSS/About.css">
-    <link rel="stylesheet" href="/CSS/Buttons.css">
-    <link rel="stylesheet" href="/CSS/ContactInfo.css">
-    <link rel="stylesheet" href="/CSS/Education.css">
-    <link rel="stylesheet" href="/CSS/Experience.css">
-    <link rel="stylesheet" href="/CSS/Hobbies.css">
-    <link rel="stylesheet" href="/CSS/Nav.css">
-    <link rel="stylesheet" href="/CSS/Phone.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-
-    <!-- JavaScript -->
-    <script src="/JavaScript/sideMenu.js"></script>
-    <script src="/JavaScript/Tabs.js"></script>
-    <script src="/JavaScript/Form.js"></script>
-
-</head>
-
-<body>
-
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <button onclick="openForm()">Open Form</button>
-
-        <div class="form-popup" id="myForm">
-            <form action="/submit_form.php" class="form-container">
-                <h2>Sign Up</h2>
-
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" required>
-
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-
-                <button type="submit" class="btn">Sign Up</button>
-                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-            </form>
-        </div>
-        
-        <!-- Buttons -->
-        <a href="#" class="btn signUp">Sign Up</a>
-        <a href="#" class="btn login">Login</a>
-
-        <!-- Search bar -->
-        <div class="search-container">
-            <form action="/search" method="get">
-                <input type="text" placeholder="Search.." name="search">
-            </form>
-        </div>
-
-        <!-- Sidemenu -->
-        <ul id="sidemenu">
-            <i class="fas fa-times" onclick="closemenu()"></i>
-        </ul>
-        <i class="fas fa-bars" onclick="openmenu()"></i>
-
-    </nav>
-
-    <!-- Home -->
-    <div id="header">
-        <div class="container">
-            <div class="header-text">
-                <p>Title / Educational Title</p>
-                <h1>Full name</h1>
-            </div>
-        </div>
-    </div>
-
->>>>>>> Stashed changes:index.html
     <!-- About -->
     <div id="about">
         <div class="container alternative-bg">
