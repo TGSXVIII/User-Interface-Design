@@ -26,8 +26,11 @@
 
 </head>
 
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
 <body>
-    <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <!-- Home -->
     <div id="header">
         <!-- Navigation Bar -->
@@ -56,7 +59,7 @@
         </div>
     </div>
 
-    <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <!-- About -->
     <div id=content>
         <div id="about">
@@ -148,7 +151,7 @@
             </div>
         </div>
 
-        <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <!-- Hobbies -->
         <div id="hobbies">
             <div class="container">
@@ -166,7 +169,7 @@
                         <!-- Tab contents -->
                         <div class="tab-contents hobbies-content active-tab" id="hobTab1">
                             <div class="hobbies-list">
-                                <p>Blah Blah Blah</p>
+                                <p>Blah Blah Blah 1</p>
                             </div>
                             <div class="hobbies-col-2">
                                 <img src="/Pictures/Place Holder.png">
@@ -175,7 +178,7 @@
 
                         <div class="tab-contents hobbies-content" id="hobTab2">
                             <div class="hobbies-list">
-                                <p>Blah Blah Blah</p>
+                                <p>Blah Blah Blah 2</p>
                             </div>
                             <div class="hobbies-col-2">
                                 <img src="/Pictures/Place Holder.png">
@@ -184,7 +187,7 @@
 
                         <div class="tab-contents hobbies-content" id="hobTab3">
                             <div class="hobbies-list">
-                                <p>Blah Blah Blah</p>
+                                <p>Blah Blah Blah 3</p>
                             </div>
                             <div class="hobbies-col-2">
                                 <img src="/Pictures/Place Holder.png">
@@ -195,7 +198,7 @@
             </div>
         </div>
 
-        <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <!-- Experience -->
         <div id="experience">
             <div class="container alternative-bg">
@@ -212,7 +215,7 @@
 
                         <div class="tab-contents experience-content active-tab" id="expTab1">
                             <div class="experience-list">
-                                <p>Blah Blah Blah</p>
+                                <p>Blah Blah Blah 1</p>
                             </div>
                             <div class="experience-col-2">
                                 <img src="/Pictures/Place Holder.png">
@@ -221,7 +224,7 @@
 
                         <div class="tab-contents experience-content" id="expTab2">
                             <div class="experience-list">
-                                <p>Blah Blah Blah</p>
+                                <p>Blah Blah Blah 2</p>
                             </div>
                             <div class="experience-col-2">
                                 <img src="/Pictures/Place Holder.png">
@@ -230,7 +233,7 @@
 
                         <div class="tab-contents experience-content" id="expTab3">
                             <div class="experience-list">
-                                <p>Blah Blah Blah</p>
+                                <p>Blah Blah Blah 3</p>
                             </div>
                             <div class="experience-col-2">
                                 <img src="/Pictures/Place Holder.png">
@@ -258,7 +261,7 @@
 
                         <div class="tab-contents education-content active-tab" id="eduTab1">
                             <div class="education-list">
-                                <p>Blah Blah Blah</p>
+                                <p>Blah Blah Blah 1</p>
                             </div>
                             <div class="education-col-2">
                                 <img src="/Pictures/Place Holder.png">
@@ -267,7 +270,7 @@
 
                         <div class="tab-contents education-content" id="eduTab2">
                             <div class="education-list">
-                                <p>Blah Blah Blah</p>
+                                <p>Blah Blah Blah 2</p>
                             </div>
                             <div class="education-col-2">
                                 <img src="/Pictures/Place Holder.png">
@@ -276,7 +279,7 @@
 
                         <div class="tab-contents education-content" id="eduTab3">
                             <div class="education-list">
-                                <p>Blah Blah Blah</p>
+                                <p>Blah Blah Blah 3</p>
                             </div>
                             <div class="education-col-2">
                                 <img src="/Pictures/Place Holder.png">

@@ -37,6 +37,10 @@
     float: left;
 }
 
+.navbar .btn-left:hover {
+    background-color: #40E0D0;
+}
+
 /* ------------------------------------------------------------- */
 /* Style for the search bar */
 .search-container {
