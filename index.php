@@ -76,7 +76,7 @@
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
 
-        <div class="header-text">
+        <div class="header-text" id="header-text">
             <p>Title / Educational Title</p>
             <h1> Full name </h1>
         </div>

@@ -1,17 +1,27 @@
 function loadNewPage() {
     // Create a new HTML structure
+    const newHeader = `
+    
+    `;
     const newContent = `
         <h1>New Page</h1>
         <p>This is the new content of the page.</p>
         <button onclick="goBack()">Go Back</button>
     `;
-    
+
     // Replace the content of the entire document
+    document.getElementById('header-text').innerHTML = newHeader
     document.getElementById('content').innerHTML = newContent;
 }
 
 function LoadTemplate() {
     // Reload the original content
+    const originalHeader = `
+    <div class="header-text">
+        <p>Title / Educational Title</p>
+        <h1> Full name </h1>
+    </div>
+    `;
     const originalContent = `
     <!-- About -->
     <div id="about">
@@ -208,5 +218,6 @@ function LoadTemplate() {
         </div>
     </div>
     `;
+    document.getElementById('header-text').innerHTML = originalHeader
     document.getElementById('content').innerHTML = originalContent;
 }
