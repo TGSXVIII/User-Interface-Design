@@ -64,8 +64,13 @@
     display: inline-block;
 }
 
-.hobbies-col-1 img {
-    margin-top: 30px;
+.hobbies-col-1 {
     width: 100%;
+}
+
+.hobbies-col-2 img {
+    width: 30%;
     border-radius: 15px;
+    float: right;
+    position: static;
 }

@@ -1,4 +1,4 @@
-/*----------- Buttons ----------*/ 
+/*----------- Buttons ----------*/
 .btn {
     display: block;
     margin: 30px auto;
@@ -11,6 +11,21 @@
     font-weight: 500;
     transition: background 0.5s;
     background: black;
+}
+
+.navbar .btn-left {
+    display: block;
+    margin: 30px 20px;
+    width: fit-content;
+    border: 1px solid #40E0D0;
+    padding: 14px 30px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.5s;
+    background: black;
+    float: left;
 }
 
 .btn:hover {
