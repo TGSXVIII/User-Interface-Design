@@ -89,6 +89,8 @@
                     <button type="submit"><i class="fa fa-search"></i></button>
                     <ul id="sidemenu">
                         <i class="fas fa-times" onclick="closemenu()"></i>
+                        <a href="#" onclick="openForm('signup')" class="btn" style="display: block;">Sign Up</a>
+                        <a href="#" onclick="openForm('login')" class="btn" style="display: block;">Login</a>
                     </ul>
                     <i class="fas fa-bars" onclick="openmenu()"></i>
                 </form>
