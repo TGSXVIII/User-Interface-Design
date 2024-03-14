@@ -66,8 +66,8 @@
 
             <!-- Search bar -->
             <div class="search-container">
-                <form action="/search" method="get">
-                    <input type="text" placeholder="Search.." name="search">
+                <form id="searchForm" method="get">
+                    <input type="text" id="searchInput" placeholder="Search.." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
             </div>
