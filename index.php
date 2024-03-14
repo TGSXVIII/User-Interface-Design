@@ -74,6 +74,8 @@
 
             <ul id="sidemenu">
                 <i class="fas fa-times" onclick="closemenu()"></i>
+                <a href="#" onclick="LoadTemplate()" class="btn-left">CV</a>
+                <a href="#" onclick="LoadTemplate()" class="btn-left">CV</a>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
