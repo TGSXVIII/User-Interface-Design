@@ -33,27 +33,45 @@
 
     <div class="form-popup" id="login">
         <form action="/submit_form.php" class="form-container">
-            <h2>login</h2>
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-            <button type="submit" class="btn">login</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            <h2>Login</h2>
+            <div style="display: flex; justify-content: space-between;">
+                <div style="width: 48%;">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                </div>
+                <div style="width: 48%;">
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button type="submit" class="btn login-btn">Login</button>
+                <button type="button" class="btn cancel cancel-btn" onclick="closeForm()">Close</button>
+            </div>
         </form>
     </div>
 
     <div class="form-popup" id="signup">
         <form action="/submit_form.php" class="form-container">
             <h2>Sign Up</h2>
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-            <button type="submit" class="btn">Sign Up</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            <div style="display: flex; justify-content: space-between;">
+                <div style="width: 48%;">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                </div>
+                <div style="width: 48%;">
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button type="submit" class="btn login-btn">Sign Up</button>
+                <button type="button" class="btn cancel cancel-btn" onclick="closeForm()">Close</button>
+            </div>
         </form>
     </div>
+
+
 
     <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <!-- Home -->
@@ -69,13 +87,12 @@
                 <form id="searchForm" method="get">
                     <input type="text" id="searchInput" placeholder="Search.." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
+                    <ul id="sidemenu">
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
                 </form>
             </div>
-
-            <ul id="sidemenu">
-                <i class="fas fa-times" onclick="closemenu()"></i>
-            </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
 
         <div class="header-text" id="header-text">

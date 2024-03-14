@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+    .search-container input[type=text] {
+        width: 300px;
+        /* Adjust the width as needed */
+    }
+}
+
 /* Responsive styles for small screens */
 @media (max-width: 600px) {
     /* Adjust styles for small screens */
@@ -21,8 +28,28 @@
         font-size: 16px;
     }
 
-    .header-text h1 {
+    .header-text p {
+        margin: 0;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    /* Header styles */
+    #header {
+        width: 100%;
+        height: 51pc;
+        margin-bottom: 100px;
+    }
+
+    .header-text {
+        margin-top: 20%;
         font-size: 30px;
+        margin-left: 5%;
+    }
+
+    .header-text h1 {
+        font-size: 60px;
+        margin-top: 20px;
     }
 
     .sub-title {
@@ -109,7 +136,6 @@
         position: fixed;
         top: 0;
         right: -200px;
-        /* Start off-screen to the right */
         width: 200px;
         height: 100%;
         transition: right 0.5s;
@@ -161,8 +187,12 @@
     }
 
     .tab-links {
-        margin: 10px auto;
-        /* Center align the tab links with margin */
+        margin-right: 0;
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        position: relative;
         display: block;
         /* Make each tab link a block element */
     }
@@ -366,9 +396,8 @@
         display: none;
     }
 
-    /* Styles for search bar */
     .search-container {
-        display: none;
+        width: 100%;
     }
 
     .search-container input[type=text] {
@@ -377,9 +406,9 @@
         border-radius: 5px;
         background-color: #fff;
         color: #333;
-        width: 500px;
+        width: 160px;
         border: 1px solid #40E0D0;
-        margin-left: 80px;
+        margin-left: 8%;
     }
 
     .search-container button {
@@ -397,24 +426,6 @@
     body {
         background: #ffffff;
         color: #000000;
-    }
-
-    /* Header styles */
-    #header {
-        width: 100%;
-        height: 51pc;
-        margin-bottom: 100px;
-    }
-
-    .header-text {
-        margin-top: 20%;
-        font-size: 30px;
-        margin-left: 5%;
-    }
-
-    .header-text h1 {
-        font-size: 60px;
-        margin-top: 20px;
     }
 
     /* Layer styles */
@@ -502,14 +513,6 @@
         margin: 20px 0 40px;
     }
 
-    .tab-links {
-        margin-right: 10%;
-        font-size: 18px;
-        font-weight: 500;
-        cursor: pointer;
-        position: relative;
-    }
-
     .tab-links::after {
         content: "";
         width: 0;
@@ -550,6 +553,8 @@
     .navbar .fa-bars {
         display: block;
         float: right;
+        margin-top: 8%;
+        margin-right: 5%;
     }
 
     .search-container {

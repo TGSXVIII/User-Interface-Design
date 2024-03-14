@@ -5,45 +5,95 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 3px solid #f1f1f1;
+    border: 3px solid #cfcfcf;
     z-index: 999;
-    background-color: white;
-    padding: 20px;
-    max-width: 400px;
-    /* Adjust the maximum width as needed */
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 800px;
     width: 100%;
-    /* Ensure the popup takes full width */
 }
 
-/* Full-width input fields */
 .form-container input[type=text],
 .form-container input[type=password] {
-    width: 100%;
+    width: calc(100% - 22px);
+    /* Adjust width to fit side by side with a small gap */
     padding: 10px;
-    margin: 5px 0 10px 0;
+    margin: 5px;
     border: none;
     background: #f1f1f1;
+    border-radius: 5px;
 }
 
 /* Set a style for the submit button */
 .form-container .btn {
-    background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    width: 100%;
-    margin-bottom: 10px;
+    margin: 5px;
     opacity: 0.8;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 20%;
 }
 
-/* Add a red background color to the cancel button */
-.form-container .cancel {
-    background-color: red;
+/* Style for login button */
+.form-container .login-btn {
+    background-color: black;
+    /* Turquoise color */
+}
+
+/* Style for cancel button */
+.form-container .cancel-btn {
+    background-color: black;
 }
 
 /* Add some hover effects to buttons */
-.form-container .btn:hover,
-.open-button:hover {
+.form-container .btn:hover {
     opacity: 1;
+}
+
+/* Adjust button colors */
+.form-container .login-btn:hover {
+    background-color: #40E0D0;
+    /* Black color on hover */
+}
+
+.form-container .cancel-btn:hover {
+    background-color: red;
+    /* Dark red color on hover */
+}
+
+/* Align buttons horizontally */
+.form-container .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Style for links */
+.form-container a {
+    color: #6ed4b2;
+    /* Match with the color used in the header links */
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.form-container .login-btn,
+.form-container .cancel-btn {
+    margin: 0 20%;
+    /* Adjust margin between buttons */
+}
+
+.form-container {
+    text-align: center;
+    /* Center align form content */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    /* Center align buttons */
 }
