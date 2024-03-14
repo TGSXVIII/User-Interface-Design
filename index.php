@@ -66,8 +66,8 @@
 
             <!-- Search bar -->
             <div class="search-container">
-                <form action="/search" method="get">
-                    <input type="text" placeholder="Search.." name="search">
+                <form id="searchForm" action="/search" method="get">
+                    <input id="searchInput" type="text" placeholder="Search.." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
             </div>
@@ -98,7 +98,7 @@
                         <p style="font-size: large;"> Blah Blah Blah </p>
 
                         <!-- Maybe add more tabs -->
-                        <div class="tab-titles">
+                        <div class="tab-titles" style="width: 100%;">
                             <p class="tab-links about-links active-link" onclick="opentab('AboTab1', 'about')" style="font-weight: 600;">
                                 Info 1 </p>
                             <p class="tab-links about-links" onclick="opentab('AboTab2', 'about')" style="font-weight: 600;"> Info 2 </p>
