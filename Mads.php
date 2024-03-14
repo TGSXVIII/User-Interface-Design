@@ -101,6 +101,8 @@
                 <div class="tab-titles">
                     <p class="tab-links experience-links active-link" onclick="opentab('expTab1', 'experience')" style="font-weight: 600;">My School</p>
                     <p class="tab-links experience-links" onclick="opentab('expTab2', 'experience')" style="font-weight: 600;">IDEAI Barcelona</p>
+                    <p class="tab-links experience-links" onclick="opentab('expTab3', 'experience')" style="font-weight: 600;">Mercantec Machine Learning</p>
+                    <p class="tab-links experience-links" onclick="opentab('expTab4', 'experience')" style="font-weight: 600;">Mercantec UI Design</p>
                 </div>
 
                 <div class="tab-contents experience-content active-tab" id="expTab1">
@@ -112,6 +114,18 @@
                 <div class="tab-contents experience-content" id="expTab2">
                     <div class="experience-list">
                         <p>I went to Barcelona and acted as an intern at IDEAI with some of my colleages where we learnt more about Python</p>
+                    </div>
+                </div>
+
+                <div class="tab-contents experience-content" id="expTab3">
+                    <div class="experience-list">
+                        <p>I took Machine Learning at Mercantec where i learnt about creating Machine Learning from the bottom in Python</p>
+                    </div>
+                </div>
+
+                <div class="tab-contents experience-content" id="expTab4">
+                    <div class="experience-list">
+                        <p>I took UI Design at Mercantec where we had to design a website that was also phone compatable</p>
                     </div>
                 </div>
             </div>
