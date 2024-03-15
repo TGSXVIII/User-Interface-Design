@@ -1,39 +1,94 @@
 /*----------- Nav ----------*/
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+/* Add your custom styles here */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    /* Aligning the content in the center */
 }
 
-nav ul li {
+.navbar a {
     display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
+    /* Displaying buttons inline */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
 }
 
-nav ul li a {
+.navbar .btn {
+    margin-right: 20px;
+    float: right;
+}
+
+.navbar .btn-left {
+    display: block;
+    margin: 30px 20px;
+    width: fit-content;
+    border: 1px solid #40E0D0;
+    padding: 14px 30px;
+    border-radius: 6px;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    position: relative;
+    font-weight: 500;
+    transition: background 0.5s;
+    background: black;
+    float: left;
 }
 
-nav ul li a::after {
-    content: "";
-    width: 0;
-    height: 3px;
-    background: #40E0D0;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
+.navbar .btn-left:hover {
+    background-color: #40E0D0;
 }
 
-nav ul li a:hover::after {
-    width: 100%;
+/* ------------------------------------------------------------- */
+/* Style for the search bar */
+.search-container {
+    display: inline-block;
 }
 
-nav .fas {
+.search-container input[type=text] {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    width: 500px;
+    border: 1px solid #40E0D0;
+    margin-left: 80px;
+}
+
+.search-container button {
     display: none;
+}
+
+/* ------------------------------------------------------------- */
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+/* ------------------------------------------------------------- */
+/* Media query for PC size */
+@media screen and (min-width: 600px) {
+    #sidemenu {
+        display: none;
+    }
+
+    .navbar .fa-bars {
+        display: none;
+    }
+
+    .search-container {
+        margin-top: 15px;
+    }
 }
